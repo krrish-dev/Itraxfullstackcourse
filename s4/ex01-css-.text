@@ -1,0 +1,102 @@
+/* Style for the page header */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Style for the first section */
+.firstcontainer {
+    overflow: hidden; /* clears the float */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Style for the image on the left of the first section */
+.imgleft {
+    float: left;
+    margin-right: 20px;
+    max-width: 100%;
+}
+
+/* Style for the content on the right of the first section */
+.contentright {
+    float: left;
+    max-width: 50%;
+}
+
+/* Style for the heading in the first section */
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style for the paragraph in the first section */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Style for the download button in the first section */
+button {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the download button when hovered in the first section */
+button:hover {
+    background-color: #666;
+}
+
+ 
+/* Style for the container section */
+.container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Style for the item in the container section */
+.item {
+    flex-basis: 20%;
+    margin: 10px;
+    background-color: #f9f9fd;
+    padding: 20px;
+}
+
+/* Style for the image in the item in the container section */
+.img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* Style for the heading in the item in the container section */
+.itemcenter h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the paragraph in the item in the container section */
+.itemcenter p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+}
