@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add the following line inside the head tag of your HTML file -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> 
+
+    <link href="./task2.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-mcYhNYzB4f+M/nLJhcb4c4sm3q8qwr94+AJQ2JwSrnP/+0fz8mwvDrRujAsdFn4rg0Gq3q8zwvFZQmLJ0hSggQ==" crossorigin="anonymous" />
+
+
+    <title>HTML/CSS Contact Section</title>
+</head>
+<body>
+
+    <!-- <section class="container">
+        <div class="form-section">
+            <h2> send a Message</h2>
+            <div class="message">
+                <form>
+                    <input type="text" placeholder=" your Name">
+                    <input type="text" placeholder=" your Email">
+                    <input type="text" placeholder="subject">
+                    <textarea placeholder=" your Message"></textarea>
+                    <button> submit</button>
+                </form>
+            </div>
+            <div class="contact">
+                <div class="cinfo"><h5>Where to Find Us</h5><p> 1600 Amphitheatre Parkway<br> Mountain View, CA<br> 94043 US</p></div>
+                <div class="cinfo"><h5>Email Us At</h5><p> contact@glintsite.com<br> info@glintsite.com</p></div>
+                <div class="cinfo"><h5>Call Us At</h5><p> Phone: (+63) 555 1212<br> Mobile: (+63) 555 0100<br> Fax: (+63) 555 0101</p></div>
+            </div>
+        </div>
+    </section> -->
+    <section id="contact" class="s-contact">
+ 
+        <div class="section-header" >
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+            </div>
+        </div>
+        <div class="contact-content ">
+            <div class="contact-primary">
+                <h3 class="h6">Send Us A Message</h3>
+                <form name="contactForm" id="contactForm" method="post" action=""  >
+                    <fieldset>
+                        <div class="form-field"> <input name="contactName" type="text" id="contactName"
+                                placeholder="Your Name" value="" minlength="2" required="" aria-required="true"
+                                class="full-width"></div>
+                        <div class="form-field"> <input name="contactEmail" type="email" id="contactEmail"
+                                placeholder="Your Email" value="" required="" aria-required="true" class="full-width"></div>
+                        <div class="form-field"> <input name="contactSubject" type="text" id="contactSubject"
+                                placeholder="Subject" value="" class="full-width"></div>
+                        <div class="form-field"><textarea name="contactMessage" id="contactMessage"
+                                placeholder="Your Message" s="10" cols="50" required="" aria-required="true"
+                                class="full-width"></textarea></div>
+                        <div class="form-field"> <button class="full-width btn--primary">Submit</button>
+                           
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="contact-secondary">
+                <div class="contact-info">
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+                    <div class="cinfo">
+                        <h5>Where to Find Us</h5>
+                        <p> 1600 Amphitheatre Parkway<br> Mountain View, CA<br> 94043 US</p>
+                    </div>
+                    <div class="cinfo">
+                        <h5>Email Us At</h5>
+                        <p> contact@glintsite.com<br> info@glintsite.com</p>
+                    </div>
+                    <div class="cinfo">
+                        <h5>Call Us At</h5>
+                        <p> Phone: (+63) 555 1212<br> Mobile: (+63) 555 0100<br> Fax: (+63) 555 0101</p>
+                    </div>
+                    <ul class="contact-social">
+                        <li> <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
