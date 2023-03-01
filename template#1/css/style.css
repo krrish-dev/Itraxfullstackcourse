@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
 }
+::selection {
+    background-color: #8460f6;
+    color: #fff;
+}
 body{
     font-family: 'Poppins', sans-serif;
     color: #7777;
+    /* height: 5000px; */
 }
 
 .container{
@@ -43,10 +48,10 @@ body{
 /* Start Nav */ 
 
 nav{
-    /* background-color: blueviolet; */
+    background-color: #6a4dc5;
     overflow: hidden;
     padding: 8px 0;
-    position: fixed;
+    /* position: fixed; */
     z-index: 1;
     width: 100%;
 }
@@ -156,7 +161,7 @@ header .header-info button {
 }
 .history .history-info p {
     color:#777777;
-    
+
 }
 .history .list-btn .btn:first-child {
     padding:  14px 25px;
@@ -179,3 +184,278 @@ color:white;
 background-color: blueviolet;
 }
 /* End History */
+
+/* start Skills */
+.skills{
+    background: #f3487f;
+    height: 519px;
+    overflow: hidden;
+}
+.skills .skills-info{
+    float: left;
+    width: 25%;
+}
+.skills .skills-info .skills-icon {
+    background: white;
+    text-align: center;
+    padding:80px 0;
+}
+.skills .skills-info .skills-icon:hover{
+    background-color: #f3487f;
+    color: white;
+}
+.skills .skills-info .skills-icon:hover p{
+    color: white;
+}
+.skills .skills-info .skills-icon img {
+ width:20%;
+}
+.skills .skills-info .skills-icon p {
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+   }
+
+.skills .skills-info .skills-dec {
+    background: #6f7598;
+    padding: 95px 26px;
+    color: #fff;
+    text-align: center;
+   }
+.skills .skills-info .skills-dec p {
+    font-size: 15px;
+   }
+/* End Skills */
+
+/* start exp  */
+.exp{
+    padding: 70px 0;
+}
+.exp .vector{
+    overflow: auto;
+}
+.exp .vector .vector-info{
+    float: left;
+    width: 25%;
+}
+.exp .vector .vector-info .vector-img img{
+width: 90%;
+}
+.exp .vector .vector-dec {
+    float: left;
+    width: 50%;
+}
+.exp .vector .vector-dec .vector-details{
+    padding: 40px;
+}
+.exp .vector .vector-dec .vector-details h2{
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.exp .vector .vector-dec .vector-details h5{
+    color: #000;
+    font-weight: 200;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.exp .vector .vector-dec .vector-details p{
+    color: #777777;
+    font-size: 15px;
+    letter-spacing: 0;
+    margin: 20px;
+}
+.exp .vector .vector-dec .vector-details .btn{
+    background-color: transparent;
+    color: #6A4DC5;
+    border:1px solid #eee;
+    padding: 10px 20px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+.exp .vector .vector-dec .vector-details .btn:hover{
+    background-color: #6A4DC5 ;
+    color:white;
+}
+/* end exp */
+
+/*  start projects */
+.projects{
+    background: #5dd1e3;
+    padding: 70px 0;
+}
+.projects .heading , .projects .heading h3 {
+    color: white;
+}
+.projects .some-projects{
+    /* overflow: auto; */
+    background: #fff;
+    height: 268px;
+    overflow: hidden;
+    /* overflow-y: hidden; */
+}
+.projects .some-projects .some-info{
+    float: left;
+    width: 66.6666%;
+}
+.projects .some-projects .some-info img {
+    width: 93%;
+    height: 268px;
+}
+.projects .some-projects .some-dec{
+    float: left;
+    width: 33.3333%;
+}
+.projects .some-projects .some-dec .pro-data{
+    padding: 50px 48px 50px 0;
+}
+.projects .some-projects .some-dec .pro-data h3{
+ color: #333;
+ font-size: 20px;
+ margin-bottom: 12px;
+}
+.projects .some-projects .some-dec .pro-data p{ 
+font-size: 15px;
+letter-spacing: 0px;
+color:#777777;
+}
+/* end projects */
+
+/* start keep */
+.keep{
+    padding: 100px 0;
+
+}
+.keep form{
+    overflow: auto;
+    width: 70%;
+    margin: auto;
+}
+
+.keep form input {
+    float: left;
+    width: 43.111%;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    border: 2px solid #eee;
+}
+.keep form input:nth-of-type(2){
+    margin-right: 0;
+} 
+.keep form input::placeholder , .keep form textarea::placeholder{
+    color: gray; 
+    letter-spacing: 0;
+}
+.keep form textarea {
+    width: 89%;
+    height: 183px;
+    border: 2px solid #eee;
+    padding: 20px;
+    resize: none;
+}
+.keep form .btn {
+    float: right;
+    padding: 10px 22px;
+    background: transparent;
+    color: #6A4DC5;
+    border: 1px solid #eee;
+    margin-top: 16px;
+    margin-right: 45px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+.keep form .btn:hover{
+    background: #6A4DC5;
+    color: white;
+}
+/* end keep */
+
+/* start together */
+.together{
+    background: #F9C400;
+    padding: 100px 0 ;
+}
+.together .together-inp {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.together .together-inp h3{
+    color: white;
+    font-size: 32px;
+    /* width: 66%;
+    margin: auto; */
+    line-height: 46px;
+    text-align: center;
+}
+.together .together-inp form{
+    position: relative;
+    margin-top: 30px;
+}
+.together .together-inp form input{
+    padding: 20px 20px;
+    width: 100%;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+}
+.together .together-inp .btn{
+     position: absolute;
+     padding: 10px 23px;
+     top: 8px;
+     right: -37px;
+     background: transparent;
+     border: 1.5px solid #eee;
+     color: #6A4DC5;
+}
+.together .together-inp .btn:hover{
+    background: #6A4DC5;
+    color: white;
+}
+/* end together */
+
+/* start footer */
+footer{
+    background: #4E5375 ;
+    padding: 100px 0;
+    overflow: auto;
+}
+
+footer .footer-list{
+    float: left;
+    width: 25%;
+}
+footer .footer-list h3{
+color: white;
+margin-bottom: 10px;
+}
+footer .footer-list .list ul {
+    list-style: none;
+
+}
+footer .footer-list .list ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 4px 0;
+}
+footer .footer-list .list ul li a:hover{
+    color:#6A4DC5;
+    transition: all 1s;
+}
+footer .footer-list .list .footer-img{
+    float: left;
+    width: 21%;
+}
+footer .footer-list .list.head{
+    margin-bottom: 20px;
+}
+.footer-end p{
+ padding: 40px 0;
+ color: white;
+}
+/* end footer */
