@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.p-1{
+    padding: 10px;
+}
+.p-2{
+    padding: 20px;
+}
+.p-3{
+    padding: 30px;
+}
+ 
+.m-1{
+    margin: 10px;
+}
+.m-2{
+    margin: 20px;
+}
+.m-3{
+    margin: 30px;
+}
+.flex{
+    display: flex;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    color: red;
+}
+.btn-secondary{
+    background-color: blueviolet;
+}
